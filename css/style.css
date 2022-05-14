@@ -1,7 +1,18 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
-} */
+    box-sizing: border-box;
+    font-family: var(--main-text);
+    font-style: normal;
+}
+
+:root{
+    --main-text: 'Roboto', sans-serif;
+    --main-color-grey: #757575;
+    --main-color-black: #212121;
+    --color-link-white: #FFFFFF;
+    --color-link-hover: #2196F3;
+}
 
 ul {
     list-style: none;
@@ -10,3 +21,68 @@ ul {
 a {
     text-decoration: none;
 }
+
+/* Шапка сайта главная навигация */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-color-black);
+}
+
+.logo span {
+    color: var(--color-link-hover);
+}
+
+.header-list a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color-black);
+}
+
+.header-contact a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color-grey);
+}
+
+.header-list a:hover,
+.header-list a:focus,
+.header-contact a:hover,
+.header-contact a:focus {
+    color: var(--color-link-hover);
+}
+
+/* < !-- section1 hero --> */
+.hero {
+    background-color: aquamarine;
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-link-white);
+}
+
+.hero .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color-link-white);
+    background: #2196F3;
+}
+
+
