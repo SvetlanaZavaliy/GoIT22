@@ -85,4 +85,80 @@ a {
     background: #2196F3;
 }
 
+/* < !-- section2 Особенности --> */
+.header-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color-black);
+}
+
+.incognito {
+    display: none;
+}
+
+.individual h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color-black);
+}
+
+.individual p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color-grey);
+}
+
+/* < !-- section3 Чем мы занимаемся --> */
+
+
+/* < !-- section4 Наша команда --> */
+.our-team h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--main-color-black);
+}
+
+.our-team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--main-color-grey);
+}
+
+/* < !-- footer --> */
+
+.footer-contact a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    background-color: aqua;
+}
+
+.footer-contact-map {
+    color: var(--color-link-white);
+}
+
+.footer-contact-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
 
