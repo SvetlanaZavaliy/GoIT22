@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--main-text);
-    font-style: normal;
 }
 
 :root{
@@ -12,6 +10,14 @@
     --main-color-black: #212121;
     --color-link-white: #FFFFFF;
     --color-link-hover: #2196F3;
+}
+
+body {
+    font-family: var(--main-text);
+    font-style: normal;
+    width: 1600px;
+    /* background: #2196F3; */
+    
 }
 
 ul {
@@ -157,9 +163,14 @@ a {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contact-contact:hover,
+.footer-contact-contact:focus {
+    color: var(--color-link-hover);
+}
+
 /* PORTFOLIO */
 
-a.filtr {
+.button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -172,8 +183,8 @@ a.filtr {
     background: #F5F4FA;
 }
 
-a.filtr:hover,
-a.filtr:focus {
+.button:hover,
+.button:focus {
     color: var(--color-link-white);
     background: var(--color-link-hover);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
