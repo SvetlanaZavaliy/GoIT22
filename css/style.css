@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 :root{
     --main-text: 'Roboto', sans-serif;
@@ -10,16 +5,10 @@
     --main-color-black: #212121;
     --color-link-white: #FFFFFF;
     --color-link-hover: #2196F3;
-}
-
-body {
-    font-family: var(--main-text);
-    font-style: normal;
-    width: 1600px;
-    /* background: #2196F3; */
+    --color-fon-firct: #E5E5E5;
+    --color-fon-seondary: #F5F4FA;
     
 }
-
 ul {
     list-style: none;
 }
@@ -28,6 +17,23 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--main-text);
+    font-style: normal;
+    background-color: var(--color-fon-firct);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+
+    
+    
+}
+
+
+
 /* Шапка сайта главная навигация */
 
 .logo {
@@ -35,11 +41,14 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--main-color-black);
 }
 
 .logo span {
+    color: var(--color-link-hover);
+}
+
+.header-list .karen {
     color: var(--color-link-hover);
 }
 
@@ -51,24 +60,18 @@ a {
     color: var(--main-color-black);
 }
 
-.header-contact a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.header-list .list-contact {
     color: var(--main-color-grey);
 }
 
 .header-list a:hover,
-.header-list a:focus,
-.header-contact a:hover,
-.header-contact a:focus {
+.header-list a:focus {
     color: var(--color-link-hover);
 }
 
 /* < !-- section1 hero --> */
 .hero {
-    background-color: aquamarine;
+    background: #2F303A;
 }
 
 .hero h1 {
@@ -83,7 +86,7 @@ a {
 
 .hero .button {
     font-weight: 700;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
@@ -97,7 +100,6 @@ a {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-color-black);
 }
 
@@ -109,7 +111,6 @@ a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color-black);
 }
@@ -118,7 +119,6 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--main-color-grey);
 }
 
@@ -128,31 +128,35 @@ a {
 /* < !-- section4 Наша команда --> */
 .our-team h4 {
     font-weight: 500;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.18;
     /* text-align: center; */
-    letter-spacing: 0.03em;
     color: var(--main-color-black);
 }
 
 .our-team p {
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.18;
     /* text-align: center; */
-    letter-spacing: 0.03em;
     color: var(--main-color-grey);
 }
 
 /* < !-- footer --> */
 
+.footer {
+    background: #2F303A;
+}
+
+.footer .logo {
+    color: var(--color-link-white);
+}
+
+
 .footer-contact a {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    background-color: aqua;
 }
 
 .footer-contact-map {
@@ -172,10 +176,9 @@ a {
 
 .button {
     font-weight: 500;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-color-black);
     border-radius: 4px;
     border: solid #F5F4FA;
@@ -202,9 +205,8 @@ h5 {
 
 .filtr-text {
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color: var(--main-color-grey);
 }
 
