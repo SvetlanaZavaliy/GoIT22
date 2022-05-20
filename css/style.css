@@ -24,7 +24,7 @@ button {
 body {
     font-family: var(--main-text);
     font-style: normal;
-    background-color: var(--color-fon-firct);
+    background-color: var(color-link-white);
     letter-spacing: 0.03em;
     font-size: 16px;
 
